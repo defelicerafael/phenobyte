@@ -1,0 +1,74 @@
+root { 
+    display: block;
+}
+ body{
+        background:url("../imagenes/cuadros.jpg") no-repeat center top fixed;
+        width: 100%;
+    }
+    #input_nombre,#input_email,#input_asunto,#input_mensaje{
+      background-color:#474242;
+      color:#D1CBCB;
+      font-family: "Georgia";
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #impresiones{
+      color:#083F4B;
+      font-family: "Georgia";
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: -5px;
+    }
+    .header_article{
+      color:#1A1616;
+      font-family: "Georgia";
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .menu2{
+        display: block;
+        background-color: #756F6F;
+        padding: 7px;
+        
+        }
+        .menu{
+        border-color: #a39d9d;
+        border-top-style: dashed;
+        border-bottom-style: dashed ;
+        border-top-width: thin;
+        border-bottom-width: thin;
+        }
+    .a_menu{
+        color:white;
+        font-size:19px;
+        font-weight: bold;
+        font-family: "Georgia";
+    }
+    .abajo{
+      color:#107D96;
+      font-family:"Georgia";
+      font-weight: bold;
+    }
+    .abajo2{
+      color:#F459AA;
+      font-family:"Georgia";
+      font-weight: bold;
+    }
+    .border-top-radius{
+  border-top-right-radius: 5px;;
+   border-top-left-radius: 5px;;
+}
+    .border-right-radius{
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.border-bottom-radius {
+  border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+.border-left-radius {
+  border-bottom-left-radius: 5px;
+     border-top-left-radius: 5px;
+}
+    
